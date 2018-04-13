@@ -1,0 +1,8 @@
+Script to run tasks in paralle on an MPI cluster
+
+Tasks are shell commands, which get distributed over
+processes running on nodes. Run with:
+
+    mpirun -n 3 run_tasks.py
+
+NB: this needs python 3 for it's "subprocess" module

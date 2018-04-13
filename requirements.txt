@@ -1,0 +1,4 @@
+six
+mpi4py
+joblib
+schwimmbad
